@@ -1,0 +1,317 @@
+[
+  {
+    "slug": "amd",
+    "name": "AMD",
+    "website": "https://www.amd.com"
+  },
+  {
+    "slug": "intel",
+    "name": "Intel",
+    "website": "https://www.intel.com"
+  },
+  {
+    "slug": "asus",
+    "name": "ASUS",
+    "website": "https://www.asus.com"
+  },
+  {
+    "slug": "msi",
+    "name": "MSI",
+    "website": "https://www.msi.com"
+  },
+  {
+    "slug": "gigabyte",
+    "name": "Gigabyte",
+    "website": "https://www.gigabyte.com"
+  },
+  {
+    "slug": "asrock",
+    "name": "ASRock",
+    "website": "https://www.asrock.com"
+  },
+  {
+    "slug": "sapphire",
+    "name": "Sapphire",
+    "website": "https://www.sapphiretech.com"
+  },
+  {
+    "slug": "zotac",
+    "name": "Zotac",
+    "website": "https://www.zotac.com"
+  },
+  {
+    "slug": "corsair",
+    "name": "Corsair",
+    "website": "https://www.corsair.com"
+  },
+  {
+    "slug": "gskill",
+    "name": "G.Skill",
+    "website": "https://www.gskill.com"
+  },
+  {
+    "slug": "kingston",
+    "name": "Kingston",
+    "website": "https://www.kingston.com"
+  },
+  {
+    "slug": "crucial",
+    "name": "Crucial",
+    "website": "https://www.crucial.com"
+  },
+  {
+    "slug": "teamgroup",
+    "name": "TeamGroup",
+    "website": "https://www.teamgroupinc.com"
+  },
+  {
+    "slug": "samsung",
+    "name": "Samsung",
+    "website": "https://www.samsung.com"
+  },
+  {
+    "slug": "western-digital",
+    "name": "Western Digital",
+    "website": "https://www.westerndigital.com"
+  },
+  {
+    "slug": "seagate",
+    "name": "Seagate",
+    "website": "https://www.seagate.com"
+  },
+  {
+    "slug": "lexar",
+    "name": "Lexar",
+    "website": "https://www.lexar.com"
+  },
+  {
+    "slug": "seasonic",
+    "name": "Seasonic",
+    "website": "https://seasonic.com"
+  },
+  {
+    "slug": "be-quiet",
+    "name": "be quiet!",
+    "website": "https://www.bequiet.com"
+  },
+  {
+    "slug": "cooler-master",
+    "name": "Cooler Master",
+    "website": "https://www.coolermaster.com"
+  },
+  {
+    "slug": "deepcool",
+    "name": "DeepCool",
+    "website": "https://www.deepcool.com"
+  },
+  {
+    "slug": "lian-li",
+    "name": "Lian Li",
+    "website": "https://lian-li.com"
+  },
+  {
+    "slug": "nzxt",
+    "name": "NZXT",
+    "website": "https://nzxt.com"
+  },
+  {
+    "slug": "fractal-design",
+    "name": "Fractal Design",
+    "website": "https://www.fractal-design.com"
+  },
+  {
+    "slug": "montech",
+    "name": "Montech",
+    "website": "https://www.montechpc.com"
+  },
+  {
+    "slug": "noctua",
+    "name": "Noctua",
+    "website": "https://noctua.at"
+  },
+  {
+    "slug": "thermalright",
+    "name": "Thermalright",
+    "website": "https://www.thermalright.com"
+  },
+  {
+    "slug": "arctic",
+    "name": "Arctic",
+    "website": "https://www.arctic.de"
+  },
+  {
+    "slug": "lg",
+    "name": "LG",
+    "website": "https://www.lg.com"
+  },
+  {
+    "slug": "aoc",
+    "name": "AOC",
+    "website": "https://aoc.com"
+  },
+  {
+    "slug": "dell",
+    "name": "Dell",
+    "website": "https://www.dell.com"
+  },
+  {
+    "slug": "logitech",
+    "name": "Logitech",
+    "website": "https://www.logitechg.com"
+  },
+  {
+    "slug": "razer",
+    "name": "Razer",
+    "website": "https://www.razer.com"
+  },
+  {
+    "slug": "steelseries",
+    "name": "SteelSeries",
+    "website": "https://steelseries.com"
+  },
+  {
+    "slug": "hyperx",
+    "name": "HyperX",
+    "website": "https://hyperx.com"
+  },
+  {
+    "slug": "redragon",
+    "name": "Redragon",
+    "website": "https://redragonshop.com"
+  },
+  {
+    "slug": "biostar",
+    "name": "BIOSTAR",
+    "website": "https://www.biostar.com.tw"
+  },
+  {
+    "slug": "galax",
+    "name": "GALAX",
+    "website": "https://www.galax.com"
+  },
+  {
+    "slug": "gamdias",
+    "name": "GAMDIAS",
+    "website": "https://www.gamdias.com"
+  },
+  {
+    "slug": "mars-gaming",
+    "name": "Mars Gaming",
+    "website": "https://www.marsgaming.eu"
+  },
+  {
+    "slug": "raidmax",
+    "name": "RAIDMAX",
+    "website": "https://www.raidmax.com"
+  },
+  {
+    "slug": "spirit-of-gamer",
+    "name": "Spirit of Gamer",
+    "website": "https://www.spiritofgamer.com"
+  },
+  {
+    "slug": "aula",
+    "name": "AULA",
+    "website": "https://www.aulastar.com"
+  },
+  {
+    "slug": "canon",
+    "name": "Canon",
+    "website": "https://www.canon.com"
+  },
+  {
+    "slug": "havit",
+    "name": "Havit",
+    "website": "https://www.havit.hk"
+  },
+  {
+    "slug": "hybrok",
+    "name": "Hybrok",
+    "website": "https://hybrok.com"
+  },
+  {
+    "slug": "magma",
+    "name": "Magma",
+    "website": "https://magma-dz.com"
+  },
+  {
+    "slug": "hiksemi",
+    "name": "HIKSEMI",
+    "website": "https://www.hiksemitech.com"
+  },
+  {
+    "slug": "somnambulist",
+    "name": "Somnambulist",
+    "website": "https://www.somnambulist.cn"
+  },
+  {
+    "slug": "thermal-grizzly",
+    "name": "Thermal Grizzly",
+    "website": "https://www.thermal-grizzly.com"
+  },
+  {
+    "slug": "locanew",
+    "name": "Locanew",
+    "website": "https://click-dz.com"
+  },
+  {
+    "slug": "kirogi",
+    "name": "Kirogi",
+    "website": "https://click-dz.com"
+  },
+  {
+    "slug": "rig-dz",
+    "name": "Rig.dz",
+    "website": null
+  },
+  {
+    "slug": "lenovo",
+    "name": "Lenovo",
+    "website": "https://www.lenovo.com"
+  },
+  {
+    "slug": "hp",
+    "name": "HP",
+    "website": "https://www.hp.com"
+  },
+  {
+    "slug": "acer",
+    "name": "Acer",
+    "website": "https://www.acer.com"
+  },
+  {
+    "slug": "tp-link",
+    "name": "TP-Link",
+    "website": "https://www.tp-link.com"
+  },
+  {
+    "slug": "ugreen",
+    "name": "UGREEN",
+    "website": "https://www.ugreen.com"
+  },
+  {
+    "slug": "sony",
+    "name": "Sony",
+    "website": "https://www.playstation.com"
+  },
+  {
+    "slug": "microsoft",
+    "name": "Microsoft",
+    "website": "https://www.xbox.com"
+  },
+  {
+    "slug": "elgato",
+    "name": "Elgato",
+    "website": "https://www.elgato.com"
+  },
+  {
+    "slug": "fifine",
+    "name": "Fifine",
+    "website": "https://fifinemicrophone.com"
+  },
+  {
+    "slug": "cougar",
+    "name": "Cougar",
+    "website": "https://cougargaming.com"
+  }
+]

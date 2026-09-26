@@ -1,0 +1,66 @@
+{
+  "cpuSockets": [
+    {
+      "code": "AM4",
+      "name": "AMD AM4",
+      "vendor": "amd"
+    },
+    {
+      "code": "AM5",
+      "name": "AMD AM5",
+      "vendor": "amd"
+    },
+    {
+      "code": "LGA1700",
+      "name": "Intel LGA 1700",
+      "vendor": "intel"
+    },
+    {
+      "code": "LGA1851",
+      "name": "Intel LGA 1851",
+      "vendor": "intel"
+    }
+  ],
+  "memoryTypes": [
+    {
+      "code": "DDR4",
+      "name": "DDR4"
+    },
+    {
+      "code": "DDR5",
+      "name": "DDR5"
+    }
+  ],
+  "formFactors": [
+    {
+      "code": "E-ATX",
+      "name": "E-ATX",
+      "kind": "motherboard"
+    },
+    {
+      "code": "ATX",
+      "name": "ATX",
+      "kind": "motherboard"
+    },
+    {
+      "code": "MATX",
+      "name": "Micro-ATX",
+      "kind": "motherboard"
+    },
+    {
+      "code": "ITX",
+      "name": "Mini-ITX",
+      "kind": "motherboard"
+    },
+    {
+      "code": "ATX-PSU",
+      "name": "ATX (PSU)",
+      "kind": "psu"
+    },
+    {
+      "code": "SFX-PSU",
+      "name": "SFX (PSU)",
+      "kind": "psu"
+    }
+  ]
+}

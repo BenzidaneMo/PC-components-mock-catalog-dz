@@ -1,0 +1,3366 @@
+[
+  {
+    "slug": "composants",
+    "name": {
+      "ar": "مكونات الحاسوب",
+      "fr": "Composants PC",
+      "en": "PC components"
+    },
+    "children": [
+      {
+        "slug": "processeurs",
+        "name": {
+          "ar": "المعالجات",
+          "fr": "Processeurs",
+          "en": "Processors"
+        },
+        "specs": [
+          {
+            "key": "cores",
+            "type": "integer",
+            "label": {
+              "ar": "الأنوية",
+              "fr": "Cœurs",
+              "en": "Cores"
+            },
+            "unit": null,
+            "options": null,
+            "filterable": true,
+            "required": true,
+            "comparable": true,
+            "group": null
+          },
+          {
+            "key": "threads",
+            "type": "integer",
+            "label": {
+              "ar": "المسارات",
+              "fr": "Threads",
+              "en": "Threads"
+            },
+            "unit": null,
+            "options": null,
+            "filterable": false,
+            "required": false,
+            "comparable": true,
+            "group": null
+          },
+          {
+            "key": "base_clock_ghz",
+            "type": "number",
+            "label": {
+              "ar": "التردد الأساسي",
+              "fr": "Fréquence de base",
+              "en": "Base clock"
+            },
+            "unit": "GHz",
+            "options": null,
+            "filterable": false,
+            "required": false,
+            "comparable": true,
+            "group": null
+          },
+          {
+            "key": "boost_clock_ghz",
+            "type": "number",
+            "label": {
+              "ar": "التردد الأقصى",
+              "fr": "Fréquence boost",
+              "en": "Boost clock"
+            },
+            "unit": "GHz",
+            "options": null,
+            "filterable": false,
+            "required": false,
+            "comparable": true,
+            "group": null
+          },
+          {
+            "key": "l3_cache_mb",
+            "type": "integer",
+            "label": {
+              "ar": "ذاكرة L3",
+              "fr": "Cache L3",
+              "en": "L3 cache"
+            },
+            "unit": "MB",
+            "options": null,
+            "filterable": false,
+            "required": false,
+            "comparable": true,
+            "group": null
+          },
+          {
+            "key": "tdp_w",
+            "type": "integer",
+            "label": {
+              "ar": "استهلاك الطاقة",
+              "fr": "TDP",
+              "en": "TDP"
+            },
+            "unit": "W",
+            "options": null,
+            "filterable": true,
+            "required": true,
+            "comparable": true,
+            "group": null
+          },
+          {
+            "key": "max_power_w",
+            "type": "integer",
+            "label": {
+              "ar": "أقصى استهلاك (PPT / PL2)",
+              "fr": "Puissance max (PPT / PL2)",
+              "en": "Max power (PPT / PL2)"
+            },
+            "unit": "W",
+            "options": null,
+            "filterable": false,
+            "required": false,
+            "comparable": true,
+            "group": null
+          },
+          {
+            "key": "integrated_graphics",
+            "type": "boolean",
+            "label": {
+              "ar": "رسوميات مدمجة",
+              "fr": "Graphiques intégrés",
+              "en": "Integrated graphics"
+            },
+            "unit": null,
+            "options": null,
+            "filterable": true,
+            "required": false,
+            "comparable": true,
+            "group": null
+          },
+          {
+            "key": "cooler_included",
+            "type": "boolean",
+            "label": {
+              "ar": "مبرد مرفق",
+              "fr": "Ventirad inclus",
+              "en": "Cooler included"
+            },
+            "unit": null,
+            "options": null,
+            "filterable": false,
+            "required": false,
+            "comparable": true,
+            "group": null
+          },
+          {
+            "key": "packaging",
+            "type": "enum",
+            "label": {
+              "ar": "التغليف",
+              "fr": "Conditionnement",
+              "en": "Packaging"
+            },
+            "unit": null,
+            "options": [
+              {
+                "value": "tray",
+                "label": {
+                  "ar": "Tray (بدون علبة)",
+                  "fr": "Tray (sans boîte)",
+                  "en": "Tray (no box)"
+                }
+              },
+              {
+                "value": "box",
+                "label": {
+                  "ar": "Box (بالعلبة)",
+                  "fr": "Box (boîte)",
+                  "en": "Box (retail)"
+                }
+              }
+            ],
+            "filterable": true,
+            "required": false,
+            "comparable": true,
+            "group": null
+          }
+        ]
+      },
+      {
+        "slug": "cartes-meres",
+        "name": {
+          "ar": "اللوحات الأم",
+          "fr": "Cartes mères",
+          "en": "Motherboards"
+        },
+        "specs": [
+          {
+            "key": "chipset",
+            "type": "enum",
+            "label": {
+              "ar": "الشرائح",
+              "fr": "Chipset",
+              "en": "Chipset"
+            },
+            "unit": null,
+            "options": [
+              {
+                "value": "A620",
+                "label": {}
+              },
+              {
+                "value": "B650",
+                "label": {}
+              },
+              {
+                "value": "B850",
+                "label": {}
+              },
+              {
+                "value": "X870",
+                "label": {}
+              },
+              {
+                "value": "X870E",
+                "label": {}
+              },
+              {
+                "value": "B550",
+                "label": {}
+              },
+              {
+                "value": "H610",
+                "label": {}
+              },
+              {
+                "value": "B760",
+                "label": {}
+              },
+              {
+                "value": "Z790",
+                "label": {}
+              },
+              {
+                "value": "B860",
+                "label": {}
+              },
+              {
+                "value": "Z890",
+                "label": {}
+              }
+            ],
+            "filterable": true,
+            "required": true,
+            "comparable": true,
+            "group": null
+          },
+          {
+            "key": "memory_slots",
+            "type": "integer",
+            "label": {
+              "ar": "منافذ الذاكرة",
+              "fr": "Emplacements RAM",
+              "en": "Memory slots"
+            },
+            "unit": null,
+            "options": null,
+            "filterable": false,
+            "required": false,
+            "comparable": true,
+            "group": null
+          },
+          {
+            "key": "max_memory_gb",
+            "type": "integer",
+            "label": {
+              "ar": "أقصى ذاكرة",
+              "fr": "RAM maximale",
+              "en": "Max memory"
+            },
+            "unit": "GB",
+            "options": null,
+            "filterable": false,
+            "required": false,
+            "comparable": true,
+            "group": null
+          },
+          {
+            "key": "m2_slots",
+            "type": "integer",
+            "label": {
+              "ar": "منافذ M.2",
+              "fr": "Emplacements M.2",
+              "en": "M.2 slots"
+            },
+            "unit": null,
+            "options": null,
+            "filterable": true,
+            "required": false,
+            "comparable": true,
+            "group": null
+          },
+          {
+            "key": "pcie_gen",
+            "type": "enum",
+            "label": {
+              "ar": "PCIe (بطاقة الرسوميات)",
+              "fr": "PCIe (GPU)",
+              "en": "PCIe (GPU)"
+            },
+            "unit": null,
+            "options": [
+              {
+                "value": "4.0",
+                "label": {}
+              },
+              {
+                "value": "5.0",
+                "label": {}
+              }
+            ],
+            "filterable": false,
+            "required": false,
+            "comparable": true,
+            "group": null
+          },
+          {
+            "key": "wifi",
+            "type": "boolean",
+            "label": {
+              "ar": "واي فاي مدمج",
+              "fr": "Wi-Fi intégré",
+              "en": "Built-in Wi-Fi"
+            },
+            "unit": null,
+            "options": null,
+            "filterable": true,
+            "required": false,
+            "comparable": true,
+            "group": null
+          }
+        ]
+      },
+      {
+        "slug": "memoire-ram",
+        "name": {
+          "ar": "الذاكرة العشوائية",
+          "fr": "Mémoire RAM",
+          "en": "Memory (RAM)"
+        },
+        "specs": [
+          {
+            "key": "capacity_gb",
+            "type": "integer",
+            "label": {
+              "ar": "السعة (الطقم)",
+              "fr": "Capacité (kit)",
+              "en": "Capacity (kit)"
+            },
+            "unit": "GB",
+            "options": null,
+            "filterable": true,
+            "required": true,
+            "comparable": true,
+            "group": null
+          },
+          {
+            "key": "modules",
+            "type": "integer",
+            "label": {
+              "ar": "عدد الشرائح",
+              "fr": "Barrettes",
+              "en": "Modules"
+            },
+            "unit": null,
+            "options": null,
+            "filterable": false,
+            "required": false,
+            "comparable": true,
+            "group": null
+          },
+          {
+            "key": "speed_mts",
+            "type": "integer",
+            "label": {
+              "ar": "السرعة",
+              "fr": "Fréquence",
+              "en": "Speed"
+            },
+            "unit": "MT/s",
+            "options": null,
+            "filterable": true,
+            "required": true,
+            "comparable": true,
+            "group": null
+          },
+          {
+            "key": "cas_latency",
+            "type": "integer",
+            "label": {
+              "ar": "زمن الاستجابة CAS",
+              "fr": "Latence CAS",
+              "en": "CAS latency"
+            },
+            "unit": "CL",
+            "options": null,
+            "filterable": false,
+            "required": false,
+            "comparable": true,
+            "group": null
+          },
+          {
+            "key": "rgb",
+            "type": "boolean",
+            "label": {
+              "ar": "إضاءة RGB",
+              "fr": "RGB",
+              "en": "RGB"
+            },
+            "unit": null,
+            "options": null,
+            "filterable": true,
+            "required": false,
+            "comparable": true,
+            "group": null
+          }
+        ]
+      },
+      {
+        "slug": "cartes-graphiques",
+        "name": {
+          "ar": "بطاقات الرسوميات",
+          "fr": "Cartes graphiques",
+          "en": "Graphics cards"
+        },
+        "specs": [
+          {
+            "key": "gpu_vendor",
+            "type": "enum",
+            "label": {
+              "ar": "مصنع المعالج الرسومي",
+              "fr": "Fabricant GPU",
+              "en": "GPU maker"
+            },
+            "unit": null,
+            "options": [
+              {
+                "value": "nvidia",
+                "label": {
+                  "ar": "NVIDIA",
+                  "fr": "NVIDIA",
+                  "en": "NVIDIA"
+                }
+              },
+              {
+                "value": "amd",
+                "label": {
+                  "ar": "AMD",
+                  "fr": "AMD",
+                  "en": "AMD"
+                }
+              },
+              {
+                "value": "intel",
+                "label": {
+                  "ar": "Intel",
+                  "fr": "Intel",
+                  "en": "Intel"
+                }
+              }
+            ],
+            "filterable": true,
+            "required": true,
+            "comparable": true,
+            "group": null
+          },
+          {
+            "key": "gpu_model",
+            "type": "text",
+            "label": {
+              "ar": "المعالج الرسومي",
+              "fr": "Puce graphique",
+              "en": "GPU"
+            },
+            "unit": null,
+            "options": null,
+            "filterable": false,
+            "required": true,
+            "comparable": true,
+            "group": null
+          },
+          {
+            "key": "vram_gb",
+            "type": "integer",
+            "label": {
+              "ar": "ذاكرة الفيديو",
+              "fr": "Mémoire vidéo",
+              "en": "VRAM"
+            },
+            "unit": "GB",
+            "options": null,
+            "filterable": true,
+            "required": true,
+            "comparable": true,
+            "group": null
+          },
+          {
+            "key": "vram_type",
+            "type": "enum",
+            "label": {
+              "ar": "نوع الذاكرة",
+              "fr": "Type de mémoire",
+              "en": "Memory type"
+            },
+            "unit": null,
+            "options": [
+              {
+                "value": "GDDR6",
+                "label": {}
+              },
+              {
+                "value": "GDDR6X",
+                "label": {}
+              },
+              {
+                "value": "GDDR7",
+                "label": {}
+              }
+            ],
+            "filterable": false,
+            "required": false,
+            "comparable": true,
+            "group": null
+          },
+          {
+            "key": "tdp_w",
+            "type": "integer",
+            "label": {
+              "ar": "استهلاك الطاقة",
+              "fr": "Consommation",
+              "en": "Board power"
+            },
+            "unit": "W",
+            "options": null,
+            "filterable": false,
+            "required": true,
+            "comparable": true,
+            "group": null
+          },
+          {
+            "key": "recommended_psu_w",
+            "type": "integer",
+            "label": {
+              "ar": "مزود الطاقة الموصى به",
+              "fr": "Alimentation conseillée",
+              "en": "Recommended PSU"
+            },
+            "unit": "W",
+            "options": null,
+            "filterable": true,
+            "required": true,
+            "comparable": true,
+            "group": null
+          },
+          {
+            "key": "length_mm",
+            "type": "integer",
+            "label": {
+              "ar": "الطول",
+              "fr": "Longueur",
+              "en": "Length"
+            },
+            "unit": "mm",
+            "options": null,
+            "filterable": false,
+            "required": true,
+            "comparable": true,
+            "group": null
+          }
+        ]
+      },
+      {
+        "slug": "stockage",
+        "name": {
+          "ar": "التخزين",
+          "fr": "Stockage",
+          "en": "Storage"
+        },
+        "specs": [
+          {
+            "key": "capacity_gb",
+            "type": "integer",
+            "label": {
+              "ar": "السعة",
+              "fr": "Capacité",
+              "en": "Capacity"
+            },
+            "unit": "GB",
+            "options": null,
+            "filterable": true,
+            "required": true,
+            "comparable": true,
+            "group": null
+          },
+          {
+            "key": "interface",
+            "type": "enum",
+            "label": {
+              "ar": "الواجهة",
+              "fr": "Interface",
+              "en": "Interface"
+            },
+            "unit": null,
+            "options": [
+              {
+                "value": "nvme_pcie3",
+                "label": {
+                  "ar": "NVMe PCIe 3.0",
+                  "fr": "NVMe PCIe 3.0",
+                  "en": "NVMe PCIe 3.0"
+                }
+              },
+              {
+                "value": "nvme_pcie4",
+                "label": {
+                  "ar": "NVMe PCIe 4.0",
+                  "fr": "NVMe PCIe 4.0",
+                  "en": "NVMe PCIe 4.0"
+                }
+              },
+              {
+                "value": "nvme_pcie5",
+                "label": {
+                  "ar": "NVMe PCIe 5.0",
+                  "fr": "NVMe PCIe 5.0",
+                  "en": "NVMe PCIe 5.0"
+                }
+              },
+              {
+                "value": "sata",
+                "label": {
+                  "ar": "SATA III",
+                  "fr": "SATA III",
+                  "en": "SATA III"
+                }
+              }
+            ],
+            "filterable": true,
+            "required": true,
+            "comparable": true,
+            "group": null
+          },
+          {
+            "key": "drive_form_factor",
+            "type": "enum",
+            "label": {
+              "ar": "الشكل",
+              "fr": "Format",
+              "en": "Form factor"
+            },
+            "unit": null,
+            "options": [
+              {
+                "value": "m2_2280",
+                "label": {
+                  "ar": "M.2 2280",
+                  "fr": "M.2 2280",
+                  "en": "M.2 2280"
+                }
+              },
+              {
+                "value": "2_5",
+                "label": {
+                  "ar": "2.5 بوصة",
+                  "fr": "2,5\"",
+                  "en": "2.5\""
+                }
+              },
+              {
+                "value": "3_5",
+                "label": {
+                  "ar": "3.5 بوصة",
+                  "fr": "3,5\"",
+                  "en": "3.5\""
+                }
+              }
+            ],
+            "filterable": true,
+            "required": false,
+            "comparable": true,
+            "group": null
+          }
+        ],
+        "children": [
+          {
+            "slug": "ssd",
+            "name": {
+              "ar": "أقراص SSD",
+              "fr": "SSD",
+              "en": "SSDs"
+            },
+            "specs": [
+              {
+                "key": "read_mbs",
+                "type": "integer",
+                "label": {
+                  "ar": "القراءة المتتابعة",
+                  "fr": "Lecture séquentielle",
+                  "en": "Sequential read"
+                },
+                "unit": "MB/s",
+                "options": null,
+                "filterable": false,
+                "required": false,
+                "comparable": true,
+                "group": null
+              },
+              {
+                "key": "write_mbs",
+                "type": "integer",
+                "label": {
+                  "ar": "الكتابة المتتابعة",
+                  "fr": "Écriture séquentielle",
+                  "en": "Sequential write"
+                },
+                "unit": "MB/s",
+                "options": null,
+                "filterable": false,
+                "required": false,
+                "comparable": true,
+                "group": null
+              },
+              {
+                "key": "dram_cache",
+                "type": "boolean",
+                "label": {
+                  "ar": "ذاكرة DRAM",
+                  "fr": "Cache DRAM",
+                  "en": "DRAM cache"
+                },
+                "unit": null,
+                "options": null,
+                "filterable": false,
+                "required": false,
+                "comparable": true,
+                "group": null
+              }
+            ]
+          },
+          {
+            "slug": "disques-durs",
+            "name": {
+              "ar": "الأقراص الصلبة",
+              "fr": "Disques durs",
+              "en": "Hard drives"
+            },
+            "specs": [
+              {
+                "key": "rpm",
+                "type": "integer",
+                "label": {
+                  "ar": "سرعة الدوران",
+                  "fr": "Vitesse de rotation",
+                  "en": "Spindle speed"
+                },
+                "unit": "tr/min",
+                "options": null,
+                "filterable": true,
+                "required": false,
+                "comparable": true,
+                "group": null
+              },
+              {
+                "key": "cache_mb",
+                "type": "integer",
+                "label": {
+                  "ar": "الذاكرة المؤقتة",
+                  "fr": "Cache",
+                  "en": "Cache"
+                },
+                "unit": "MB",
+                "options": null,
+                "filterable": false,
+                "required": false,
+                "comparable": true,
+                "group": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "slug": "alimentations",
+        "name": {
+          "ar": "مزودات الطاقة",
+          "fr": "Alimentations",
+          "en": "Power supplies"
+        },
+        "specs": [
+          {
+            "key": "wattage_w",
+            "type": "integer",
+            "label": {
+              "ar": "القدرة",
+              "fr": "Puissance",
+              "en": "Wattage"
+            },
+            "unit": "W",
+            "options": null,
+            "filterable": true,
+            "required": true,
+            "comparable": true,
+            "group": null
+          },
+          {
+            "key": "efficiency",
+            "type": "enum",
+            "label": {
+              "ar": "شهادة الكفاءة",
+              "fr": "Certification",
+              "en": "Efficiency"
+            },
+            "unit": null,
+            "options": [
+              {
+                "value": "none",
+                "label": {
+                  "ar": "غير معتمدة",
+                  "fr": "Non certifiée",
+                  "en": "Not certified"
+                }
+              },
+              {
+                "value": "80plus",
+                "label": {
+                  "ar": "80 PLUS",
+                  "fr": "80 PLUS",
+                  "en": "80 PLUS"
+                }
+              },
+              {
+                "value": "bronze",
+                "label": {
+                  "ar": "80 PLUS Bronze",
+                  "fr": "80 PLUS Bronze",
+                  "en": "80 PLUS Bronze"
+                }
+              },
+              {
+                "value": "gold",
+                "label": {
+                  "ar": "80 PLUS Gold",
+                  "fr": "80 PLUS Gold",
+                  "en": "80 PLUS Gold"
+                }
+              },
+              {
+                "value": "platinum",
+                "label": {
+                  "ar": "80 PLUS Platinum",
+                  "fr": "80 PLUS Platinum",
+                  "en": "80 PLUS Platinum"
+                }
+              },
+              {
+                "value": "titanium",
+                "label": {
+                  "ar": "80 PLUS Titanium",
+                  "fr": "80 PLUS Titanium",
+                  "en": "80 PLUS Titanium"
+                }
+              }
+            ],
+            "filterable": true,
+            "required": true,
+            "comparable": true,
+            "group": null
+          },
+          {
+            "key": "modular",
+            "type": "enum",
+            "label": {
+              "ar": "قابلية فصل الكوابل",
+              "fr": "Modularité",
+              "en": "Modularity"
+            },
+            "unit": null,
+            "options": [
+              {
+                "value": "none",
+                "label": {
+                  "ar": "غير قابل للفصل",
+                  "fr": "Non modulaire",
+                  "en": "Non-modular"
+                }
+              },
+              {
+                "value": "semi",
+                "label": {
+                  "ar": "نصف قابل للفصل",
+                  "fr": "Semi-modulaire",
+                  "en": "Semi-modular"
+                }
+              },
+              {
+                "value": "full",
+                "label": {
+                  "ar": "قابل للفصل بالكامل",
+                  "fr": "Modulaire",
+                  "en": "Fully modular"
+                }
+              }
+            ],
+            "filterable": true,
+            "required": false,
+            "comparable": true,
+            "group": null
+          },
+          {
+            "key": "atx3",
+            "type": "boolean",
+            "label": {
+              "ar": "ATX 3.x / 12V-2x6",
+              "fr": "ATX 3.x / 12V-2x6",
+              "en": "ATX 3.x / 12V-2x6"
+            },
+            "unit": null,
+            "options": null,
+            "filterable": true,
+            "required": false,
+            "comparable": true,
+            "group": null
+          }
+        ]
+      },
+      {
+        "slug": "boitiers",
+        "name": {
+          "ar": "صناديق الحاسوب",
+          "fr": "Boîtiers",
+          "en": "Cases"
+        },
+        "specs": [
+          {
+            "key": "case_type",
+            "type": "enum",
+            "label": {
+              "ar": "النوع",
+              "fr": "Type",
+              "en": "Type"
+            },
+            "unit": null,
+            "options": [
+              {
+                "value": "mid_tower",
+                "label": {
+                  "ar": "برج متوسط",
+                  "fr": "Moyen tour",
+                  "en": "Mid tower"
+                }
+              },
+              {
+                "value": "full_tower",
+                "label": {
+                  "ar": "برج كبير",
+                  "fr": "Grand tour",
+                  "en": "Full tower"
+                }
+              },
+              {
+                "value": "mini_tower",
+                "label": {
+                  "ar": "برج صغير",
+                  "fr": "Mini tour",
+                  "en": "Mini tower"
+                }
+              },
+              {
+                "value": "sff",
+                "label": {
+                  "ar": "حجم صغير",
+                  "fr": "Petit format (SFF)",
+                  "en": "Small form factor"
+                }
+              }
+            ],
+            "filterable": true,
+            "required": true,
+            "comparable": true,
+            "group": null
+          },
+          {
+            "key": "max_gpu_length_mm",
+            "type": "integer",
+            "label": {
+              "ar": "أقصى طول لبطاقة الرسوميات",
+              "fr": "Longueur GPU max",
+              "en": "Max GPU length"
+            },
+            "unit": "mm",
+            "options": null,
+            "filterable": false,
+            "required": true,
+            "comparable": true,
+            "group": null
+          },
+          {
+            "key": "max_cooler_height_mm",
+            "type": "integer",
+            "label": {
+              "ar": "أقصى ارتفاع للمبرد",
+              "fr": "Hauteur ventirad max",
+              "en": "Max cooler height"
+            },
+            "unit": "mm",
+            "options": null,
+            "filterable": false,
+            "required": true,
+            "comparable": true,
+            "group": null
+          },
+          {
+            "key": "max_radiator_mm",
+            "type": "integer",
+            "label": {
+              "ar": "أقصى حجم للمبرد المائي",
+              "fr": "Radiateur max",
+              "en": "Max radiator"
+            },
+            "unit": "mm",
+            "options": null,
+            "filterable": false,
+            "required": false,
+            "comparable": true,
+            "group": null
+          },
+          {
+            "key": "fans_included",
+            "type": "integer",
+            "label": {
+              "ar": "المراوح المرفقة",
+              "fr": "Ventilateurs inclus",
+              "en": "Fans included"
+            },
+            "unit": null,
+            "options": null,
+            "filterable": false,
+            "required": false,
+            "comparable": true,
+            "group": null
+          },
+          {
+            "key": "side_panel",
+            "type": "enum",
+            "label": {
+              "ar": "اللوح الجانبي",
+              "fr": "Panneau latéral",
+              "en": "Side panel"
+            },
+            "unit": null,
+            "options": [
+              {
+                "value": "tempered_glass",
+                "label": {
+                  "ar": "زجاج مقوى",
+                  "fr": "Verre trempé",
+                  "en": "Tempered glass"
+                }
+              },
+              {
+                "value": "mesh",
+                "label": {
+                  "ar": "Mesh",
+                  "fr": "Mesh",
+                  "en": "Mesh"
+                }
+              },
+              {
+                "value": "solid",
+                "label": {
+                  "ar": "مصمت",
+                  "fr": "Plein",
+                  "en": "Solid"
+                }
+              }
+            ],
+            "filterable": false,
+            "required": false,
+            "comparable": true,
+            "group": null
+          }
+        ]
+      },
+      {
+        "slug": "refroidissement",
+        "name": {
+          "ar": "التبريد",
+          "fr": "Refroidissement",
+          "en": "Cooling"
+        },
+        "specs": [
+          {
+            "key": "max_tdp_w",
+            "type": "integer",
+            "label": {
+              "ar": "القدرة الحرارية المدعومة",
+              "fr": "TDP supporté",
+              "en": "Rated TDP"
+            },
+            "unit": "W",
+            "options": null,
+            "filterable": false,
+            "required": false,
+            "comparable": true,
+            "group": null
+          },
+          {
+            "key": "rgb",
+            "type": "boolean",
+            "label": {
+              "ar": "إضاءة RGB",
+              "fr": "RGB",
+              "en": "RGB"
+            },
+            "unit": null,
+            "options": null,
+            "filterable": true,
+            "required": false,
+            "comparable": true,
+            "group": null
+          }
+        ],
+        "children": [
+          {
+            "slug": "ventirads",
+            "name": {
+              "ar": "مبردات هوائية",
+              "fr": "Ventirads",
+              "en": "Air coolers"
+            },
+            "specs": [
+              {
+                "key": "height_mm",
+                "type": "integer",
+                "label": {
+                  "ar": "الارتفاع",
+                  "fr": "Hauteur",
+                  "en": "Height"
+                },
+                "unit": "mm",
+                "options": null,
+                "filterable": false,
+                "required": true,
+                "comparable": true,
+                "group": null
+              },
+              {
+                "key": "fan_size_mm",
+                "type": "integer",
+                "label": {
+                  "ar": "حجم المروحة",
+                  "fr": "Taille du ventilateur",
+                  "en": "Fan size"
+                },
+                "unit": "mm",
+                "options": null,
+                "filterable": false,
+                "required": false,
+                "comparable": true,
+                "group": null
+              }
+            ]
+          },
+          {
+            "slug": "watercooling",
+            "name": {
+              "ar": "مبردات مائية",
+              "fr": "Watercooling AIO",
+              "en": "AIO liquid coolers"
+            },
+            "specs": [
+              {
+                "key": "radiator_mm",
+                "type": "enum",
+                "label": {
+                  "ar": "المبرد",
+                  "fr": "Radiateur",
+                  "en": "Radiator"
+                },
+                "unit": null,
+                "options": [
+                  {
+                    "value": "120",
+                    "label": {
+                      "ar": "120 mm",
+                      "fr": "120 mm",
+                      "en": "120 mm"
+                    }
+                  },
+                  {
+                    "value": "240",
+                    "label": {
+                      "ar": "240 mm",
+                      "fr": "240 mm",
+                      "en": "240 mm"
+                    }
+                  },
+                  {
+                    "value": "280",
+                    "label": {
+                      "ar": "280 mm",
+                      "fr": "280 mm",
+                      "en": "280 mm"
+                    }
+                  },
+                  {
+                    "value": "360",
+                    "label": {
+                      "ar": "360 mm",
+                      "fr": "360 mm",
+                      "en": "360 mm"
+                    }
+                  }
+                ],
+                "filterable": true,
+                "required": true,
+                "comparable": true,
+                "group": null
+              }
+            ]
+          },
+          {
+            "slug": "pates-thermiques",
+            "name": {
+              "ar": "المعجون الحراري",
+              "fr": "Pâtes thermiques",
+              "en": "Thermal paste"
+            },
+            "specs": [
+              {
+                "key": "weight_g",
+                "type": "number",
+                "label": {
+                  "ar": "الكمية",
+                  "fr": "Quantité",
+                  "en": "Amount"
+                },
+                "unit": "g",
+                "options": null,
+                "filterable": false,
+                "required": false,
+                "comparable": true,
+                "group": null
+              }
+            ]
+          },
+          {
+            "slug": "ventilateurs",
+            "name": {
+              "ar": "مراوح الصندوق",
+              "fr": "Ventilateurs boîtier",
+              "en": "Case fans"
+            },
+            "specs": [
+              {
+                "key": "fan_size_mm",
+                "type": "integer",
+                "label": {
+                  "ar": "المقاس",
+                  "fr": "Taille",
+                  "en": "Size"
+                },
+                "unit": "mm",
+                "options": null,
+                "filterable": true,
+                "required": false,
+                "comparable": true,
+                "group": null
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "pc-gamer",
+    "name": {
+      "ar": "حواسيب مركبة",
+      "fr": "PC montés",
+      "en": "Prebuilt PCs"
+    },
+    "specs": [
+      {
+        "key": "cpu_model",
+        "type": "text",
+        "label": {
+          "ar": "المعالج",
+          "fr": "Processeur",
+          "en": "Processor"
+        },
+        "unit": null,
+        "options": null,
+        "filterable": false,
+        "required": true,
+        "comparable": true,
+        "group": null
+      },
+      {
+        "key": "gpu_model",
+        "type": "text",
+        "label": {
+          "ar": "بطاقة الرسوميات",
+          "fr": "Carte graphique",
+          "en": "Graphics"
+        },
+        "unit": null,
+        "options": null,
+        "filterable": false,
+        "required": true,
+        "comparable": true,
+        "group": null
+      },
+      {
+        "key": "ram_gb",
+        "type": "integer",
+        "label": {
+          "ar": "الذاكرة العشوائية",
+          "fr": "Mémoire RAM",
+          "en": "RAM"
+        },
+        "unit": "GB",
+        "options": null,
+        "filterable": true,
+        "required": true,
+        "comparable": true,
+        "group": null
+      },
+      {
+        "key": "storage_gb",
+        "type": "integer",
+        "label": {
+          "ar": "التخزين",
+          "fr": "Stockage",
+          "en": "Storage"
+        },
+        "unit": "GB",
+        "options": null,
+        "filterable": true,
+        "required": true,
+        "comparable": true,
+        "group": null
+      },
+      {
+        "key": "storage_type",
+        "type": "enum",
+        "label": {
+          "ar": "نوع التخزين",
+          "fr": "Type de stockage",
+          "en": "Storage type"
+        },
+        "unit": null,
+        "options": [
+          {
+            "value": "ssd",
+            "label": {
+              "ar": "SSD NVMe",
+              "fr": "SSD NVMe",
+              "en": "NVMe SSD"
+            }
+          },
+          {
+            "value": "ssd_hdd",
+            "label": {
+              "ar": "SSD + HDD",
+              "fr": "SSD + HDD",
+              "en": "SSD + HDD"
+            }
+          },
+          {
+            "value": "hdd",
+            "label": {
+              "ar": "HDD",
+              "fr": "HDD",
+              "en": "HDD"
+            }
+          }
+        ],
+        "filterable": false,
+        "required": false,
+        "comparable": true,
+        "group": null
+      },
+      {
+        "key": "dedicated_gpu",
+        "type": "boolean",
+        "label": {
+          "ar": "بطاقة رسوميات مستقلة",
+          "fr": "Carte graphique dédiée",
+          "en": "Dedicated graphics"
+        },
+        "unit": null,
+        "options": null,
+        "filterable": true,
+        "required": false,
+        "comparable": true,
+        "group": null
+      },
+      {
+        "key": "os",
+        "type": "enum",
+        "label": {
+          "ar": "نظام التشغيل",
+          "fr": "Système",
+          "en": "Operating system"
+        },
+        "unit": null,
+        "options": [
+          {
+            "value": "none",
+            "label": {
+              "ar": "بدون نظام",
+              "fr": "Sans système",
+              "en": "No OS"
+            }
+          },
+          {
+            "value": "win11_home",
+            "label": {
+              "ar": "ويندوز 11 هوم",
+              "fr": "Windows 11 Famille",
+              "en": "Windows 11 Home"
+            }
+          },
+          {
+            "value": "win11_pro",
+            "label": {
+              "ar": "ويندوز 11 برو",
+              "fr": "Windows 11 Pro",
+              "en": "Windows 11 Pro"
+            }
+          },
+          {
+            "value": "freedos",
+            "label": {
+              "ar": "FreeDOS",
+              "fr": "FreeDOS",
+              "en": "FreeDOS"
+            }
+          }
+        ],
+        "filterable": true,
+        "required": false,
+        "comparable": true,
+        "group": null
+      }
+    ],
+    "children": [
+      {
+        "slug": "pc-gamer-fixe",
+        "name": {
+          "ar": "حواسيب الألعاب",
+          "fr": "PC Gamer",
+          "en": "Gaming PCs"
+        }
+      },
+      {
+        "slug": "pc-bureau",
+        "name": {
+          "ar": "حواسيب مكتبية",
+          "fr": "PC de bureau",
+          "en": "Office PCs"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "pc-portables",
+    "name": {
+      "ar": "الحواسيب المحمولة",
+      "fr": "PC portables",
+      "en": "Laptops"
+    },
+    "specs": [
+      {
+        "key": "cpu_model",
+        "type": "text",
+        "label": {
+          "ar": "المعالج",
+          "fr": "Processeur",
+          "en": "Processor"
+        },
+        "unit": null,
+        "options": null,
+        "filterable": false,
+        "required": true,
+        "comparable": true,
+        "group": null
+      },
+      {
+        "key": "gpu_model",
+        "type": "text",
+        "label": {
+          "ar": "بطاقة الرسوميات",
+          "fr": "Carte graphique",
+          "en": "Graphics"
+        },
+        "unit": null,
+        "options": null,
+        "filterable": false,
+        "required": true,
+        "comparable": true,
+        "group": null
+      },
+      {
+        "key": "ram_gb",
+        "type": "integer",
+        "label": {
+          "ar": "الذاكرة العشوائية",
+          "fr": "Mémoire RAM",
+          "en": "RAM"
+        },
+        "unit": "GB",
+        "options": null,
+        "filterable": true,
+        "required": true,
+        "comparable": true,
+        "group": null
+      },
+      {
+        "key": "storage_gb",
+        "type": "integer",
+        "label": {
+          "ar": "التخزين",
+          "fr": "Stockage",
+          "en": "Storage"
+        },
+        "unit": "GB",
+        "options": null,
+        "filterable": true,
+        "required": true,
+        "comparable": true,
+        "group": null
+      },
+      {
+        "key": "storage_type",
+        "type": "enum",
+        "label": {
+          "ar": "نوع التخزين",
+          "fr": "Type de stockage",
+          "en": "Storage type"
+        },
+        "unit": null,
+        "options": [
+          {
+            "value": "ssd",
+            "label": {
+              "ar": "SSD NVMe",
+              "fr": "SSD NVMe",
+              "en": "NVMe SSD"
+            }
+          },
+          {
+            "value": "ssd_hdd",
+            "label": {
+              "ar": "SSD + HDD",
+              "fr": "SSD + HDD",
+              "en": "SSD + HDD"
+            }
+          },
+          {
+            "value": "hdd",
+            "label": {
+              "ar": "HDD",
+              "fr": "HDD",
+              "en": "HDD"
+            }
+          }
+        ],
+        "filterable": false,
+        "required": false,
+        "comparable": true,
+        "group": null
+      },
+      {
+        "key": "dedicated_gpu",
+        "type": "boolean",
+        "label": {
+          "ar": "بطاقة رسوميات مستقلة",
+          "fr": "Carte graphique dédiée",
+          "en": "Dedicated graphics"
+        },
+        "unit": null,
+        "options": null,
+        "filterable": true,
+        "required": false,
+        "comparable": true,
+        "group": null
+      },
+      {
+        "key": "os",
+        "type": "enum",
+        "label": {
+          "ar": "نظام التشغيل",
+          "fr": "Système",
+          "en": "Operating system"
+        },
+        "unit": null,
+        "options": [
+          {
+            "value": "none",
+            "label": {
+              "ar": "بدون نظام",
+              "fr": "Sans système",
+              "en": "No OS"
+            }
+          },
+          {
+            "value": "win11_home",
+            "label": {
+              "ar": "ويندوز 11 هوم",
+              "fr": "Windows 11 Famille",
+              "en": "Windows 11 Home"
+            }
+          },
+          {
+            "value": "win11_pro",
+            "label": {
+              "ar": "ويندوز 11 برو",
+              "fr": "Windows 11 Pro",
+              "en": "Windows 11 Pro"
+            }
+          },
+          {
+            "value": "freedos",
+            "label": {
+              "ar": "FreeDOS",
+              "fr": "FreeDOS",
+              "en": "FreeDOS"
+            }
+          }
+        ],
+        "filterable": true,
+        "required": false,
+        "comparable": true,
+        "group": null
+      },
+      {
+        "key": "size_inch",
+        "type": "number",
+        "label": {
+          "ar": "الشاشة",
+          "fr": "Écran",
+          "en": "Screen"
+        },
+        "unit": "\"",
+        "options": null,
+        "filterable": true,
+        "required": true,
+        "comparable": true,
+        "group": null
+      },
+      {
+        "key": "resolution",
+        "type": "enum",
+        "label": {
+          "ar": "الدقة",
+          "fr": "Résolution",
+          "en": "Resolution"
+        },
+        "unit": null,
+        "options": [
+          {
+            "value": "1920x1080",
+            "label": {
+              "ar": "Full HD 1080p",
+              "fr": "Full HD 1080p",
+              "en": "Full HD 1080p"
+            }
+          },
+          {
+            "value": "1920x1200",
+            "label": {
+              "ar": "WUXGA 1200p",
+              "fr": "WUXGA 1200p",
+              "en": "WUXGA 1200p"
+            }
+          },
+          {
+            "value": "2560x1440",
+            "label": {
+              "ar": "QHD 1440p",
+              "fr": "QHD 1440p",
+              "en": "QHD 1440p"
+            }
+          },
+          {
+            "value": "2560x1600",
+            "label": {
+              "ar": "WQXGA 1600p",
+              "fr": "WQXGA 1600p",
+              "en": "WQXGA 1600p"
+            }
+          },
+          {
+            "value": "3840x2160",
+            "label": {
+              "ar": "4K UHD",
+              "fr": "4K UHD",
+              "en": "4K UHD"
+            }
+          }
+        ],
+        "filterable": true,
+        "required": false,
+        "comparable": true,
+        "group": null
+      },
+      {
+        "key": "refresh_hz",
+        "type": "integer",
+        "label": {
+          "ar": "معدل التحديث",
+          "fr": "Fréquence",
+          "en": "Refresh rate"
+        },
+        "unit": "Hz",
+        "options": null,
+        "filterable": true,
+        "required": false,
+        "comparable": true,
+        "group": null
+      },
+      {
+        "key": "layout",
+        "type": "enum",
+        "label": {
+          "ar": "لوحة المفاتيح",
+          "fr": "Clavier",
+          "en": "Keyboard"
+        },
+        "unit": null,
+        "options": [
+          {
+            "value": "azerty",
+            "label": {
+              "ar": "AZERTY",
+              "fr": "AZERTY",
+              "en": "AZERTY"
+            }
+          },
+          {
+            "value": "qwerty",
+            "label": {
+              "ar": "QWERTY",
+              "fr": "QWERTY",
+              "en": "QWERTY"
+            }
+          },
+          {
+            "value": "arabic",
+            "label": {
+              "ar": "عربي / AZERTY",
+              "fr": "Arabe / AZERTY",
+              "en": "Arabic / AZERTY"
+            }
+          }
+        ],
+        "filterable": true,
+        "required": false,
+        "comparable": true,
+        "group": null
+      },
+      {
+        "key": "weight_kg",
+        "type": "number",
+        "label": {
+          "ar": "الوزن",
+          "fr": "Poids",
+          "en": "Weight"
+        },
+        "unit": "kg",
+        "options": null,
+        "filterable": false,
+        "required": false,
+        "comparable": true,
+        "group": null
+      }
+    ],
+    "children": [
+      {
+        "slug": "portables-gaming",
+        "name": {
+          "ar": "حواسيب محمولة للألعاب",
+          "fr": "Portables gaming",
+          "en": "Gaming laptops"
+        }
+      },
+      {
+        "slug": "portables-bureautique",
+        "name": {
+          "ar": "حواسيب محمولة مكتبية",
+          "fr": "Portables bureautique",
+          "en": "Office laptops"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "peripheriques",
+    "name": {
+      "ar": "الملحقات",
+      "fr": "Périphériques",
+      "en": "Peripherals"
+    },
+    "children": [
+      {
+        "slug": "ecrans",
+        "name": {
+          "ar": "الشاشات",
+          "fr": "Écrans",
+          "en": "Monitors"
+        },
+        "specs": [
+          {
+            "key": "size_inch",
+            "type": "number",
+            "label": {
+              "ar": "المقاس",
+              "fr": "Taille",
+              "en": "Size"
+            },
+            "unit": "\"",
+            "options": null,
+            "filterable": true,
+            "required": true,
+            "comparable": true,
+            "group": null
+          },
+          {
+            "key": "resolution",
+            "type": "enum",
+            "label": {
+              "ar": "الدقة",
+              "fr": "Résolution",
+              "en": "Resolution"
+            },
+            "unit": null,
+            "options": [
+              {
+                "value": "1920x1080",
+                "label": {
+                  "ar": "Full HD 1080p",
+                  "fr": "Full HD 1080p",
+                  "en": "Full HD 1080p"
+                }
+              },
+              {
+                "value": "2560x1440",
+                "label": {
+                  "ar": "QHD 1440p",
+                  "fr": "QHD 1440p",
+                  "en": "QHD 1440p"
+                }
+              },
+              {
+                "value": "3840x2160",
+                "label": {
+                  "ar": "4K UHD",
+                  "fr": "4K UHD",
+                  "en": "4K UHD"
+                }
+              }
+            ],
+            "filterable": true,
+            "required": true,
+            "comparable": true,
+            "group": null
+          },
+          {
+            "key": "refresh_hz",
+            "type": "integer",
+            "label": {
+              "ar": "معدل التحديث",
+              "fr": "Fréquence",
+              "en": "Refresh rate"
+            },
+            "unit": "Hz",
+            "options": null,
+            "filterable": true,
+            "required": true,
+            "comparable": true,
+            "group": null
+          },
+          {
+            "key": "panel",
+            "type": "enum",
+            "label": {
+              "ar": "نوع اللوحة",
+              "fr": "Dalle",
+              "en": "Panel"
+            },
+            "unit": null,
+            "options": [
+              {
+                "value": "IPS",
+                "label": {}
+              },
+              {
+                "value": "VA",
+                "label": {}
+              },
+              {
+                "value": "TN",
+                "label": {}
+              },
+              {
+                "value": "OLED",
+                "label": {}
+              }
+            ],
+            "filterable": true,
+            "required": false,
+            "comparable": true,
+            "group": null
+          },
+          {
+            "key": "response_ms",
+            "type": "number",
+            "label": {
+              "ar": "زمن الاستجابة",
+              "fr": "Temps de réponse",
+              "en": "Response time"
+            },
+            "unit": "ms",
+            "options": null,
+            "filterable": false,
+            "required": false,
+            "comparable": true,
+            "group": null
+          },
+          {
+            "key": "curved",
+            "type": "boolean",
+            "label": {
+              "ar": "منحنية",
+              "fr": "Incurvé",
+              "en": "Curved"
+            },
+            "unit": null,
+            "options": null,
+            "filterable": true,
+            "required": false,
+            "comparable": true,
+            "group": null
+          }
+        ]
+      },
+      {
+        "slug": "claviers",
+        "name": {
+          "ar": "لوحات المفاتيح",
+          "fr": "Claviers",
+          "en": "Keyboards"
+        },
+        "specs": [
+          {
+            "key": "layout",
+            "type": "enum",
+            "label": {
+              "ar": "التخطيط",
+              "fr": "Disposition",
+              "en": "Layout"
+            },
+            "unit": null,
+            "options": [
+              {
+                "value": "azerty",
+                "label": {
+                  "ar": "AZERTY",
+                  "fr": "AZERTY",
+                  "en": "AZERTY"
+                }
+              },
+              {
+                "value": "qwerty",
+                "label": {
+                  "ar": "QWERTY",
+                  "fr": "QWERTY",
+                  "en": "QWERTY"
+                }
+              }
+            ],
+            "filterable": true,
+            "required": true,
+            "comparable": true,
+            "group": null
+          },
+          {
+            "key": "switch_type",
+            "type": "enum",
+            "label": {
+              "ar": "نوع المفاتيح",
+              "fr": "Type de touches",
+              "en": "Switch type"
+            },
+            "unit": null,
+            "options": [
+              {
+                "value": "mechanical",
+                "label": {
+                  "ar": "ميكانيكية",
+                  "fr": "Mécanique",
+                  "en": "Mechanical"
+                }
+              },
+              {
+                "value": "optical",
+                "label": {
+                  "ar": "ضوئية",
+                  "fr": "Optique",
+                  "en": "Optical"
+                }
+              },
+              {
+                "value": "membrane",
+                "label": {
+                  "ar": "غشائية",
+                  "fr": "Membrane",
+                  "en": "Membrane"
+                }
+              }
+            ],
+            "filterable": true,
+            "required": false,
+            "comparable": true,
+            "group": null
+          },
+          {
+            "key": "size",
+            "type": "enum",
+            "label": {
+              "ar": "الحجم",
+              "fr": "Format",
+              "en": "Size"
+            },
+            "unit": null,
+            "options": [
+              {
+                "value": "full",
+                "label": {
+                  "ar": "100%",
+                  "fr": "100%",
+                  "en": "100%"
+                }
+              },
+              {
+                "value": "tkl",
+                "label": {
+                  "ar": "TKL (80%)",
+                  "fr": "TKL (80%)",
+                  "en": "TKL (80%)"
+                }
+              },
+              {
+                "value": "75",
+                "label": {
+                  "ar": "75%",
+                  "fr": "75%",
+                  "en": "75%"
+                }
+              },
+              {
+                "value": "65",
+                "label": {
+                  "ar": "65%",
+                  "fr": "65%",
+                  "en": "65%"
+                }
+              },
+              {
+                "value": "60",
+                "label": {
+                  "ar": "60%",
+                  "fr": "60%",
+                  "en": "60%"
+                }
+              }
+            ],
+            "filterable": false,
+            "required": false,
+            "comparable": true,
+            "group": null
+          },
+          {
+            "key": "wireless",
+            "type": "boolean",
+            "label": {
+              "ar": "لاسلكية",
+              "fr": "Sans fil",
+              "en": "Wireless"
+            },
+            "unit": null,
+            "options": null,
+            "filterable": true,
+            "required": false,
+            "comparable": true,
+            "group": null
+          },
+          {
+            "key": "rgb",
+            "type": "boolean",
+            "label": {
+              "ar": "إضاءة RGB",
+              "fr": "RGB",
+              "en": "RGB"
+            },
+            "unit": null,
+            "options": null,
+            "filterable": false,
+            "required": false,
+            "comparable": true,
+            "group": null
+          }
+        ]
+      },
+      {
+        "slug": "souris",
+        "name": {
+          "ar": "الفأرات",
+          "fr": "Souris",
+          "en": "Mice"
+        },
+        "specs": [
+          {
+            "key": "dpi",
+            "type": "integer",
+            "label": {
+              "ar": "أقصى دقة DPI",
+              "fr": "DPI max",
+              "en": "Max DPI"
+            },
+            "unit": null,
+            "options": null,
+            "filterable": true,
+            "required": true,
+            "comparable": true,
+            "group": null
+          },
+          {
+            "key": "weight_g",
+            "type": "integer",
+            "label": {
+              "ar": "الوزن",
+              "fr": "Poids",
+              "en": "Weight"
+            },
+            "unit": "g",
+            "options": null,
+            "filterable": false,
+            "required": false,
+            "comparable": true,
+            "group": null
+          },
+          {
+            "key": "wireless",
+            "type": "boolean",
+            "label": {
+              "ar": "لاسلكية",
+              "fr": "Sans fil",
+              "en": "Wireless"
+            },
+            "unit": null,
+            "options": null,
+            "filterable": true,
+            "required": false,
+            "comparable": true,
+            "group": null
+          },
+          {
+            "key": "rgb",
+            "type": "boolean",
+            "label": {
+              "ar": "إضاءة RGB",
+              "fr": "RGB",
+              "en": "RGB"
+            },
+            "unit": null,
+            "options": null,
+            "filterable": false,
+            "required": false,
+            "comparable": true,
+            "group": null
+          }
+        ]
+      },
+      {
+        "slug": "casques",
+        "name": {
+          "ar": "السماعات",
+          "fr": "Casques",
+          "en": "Headsets"
+        },
+        "specs": [
+          {
+            "key": "connection",
+            "type": "multi_enum",
+            "label": {
+              "ar": "الاتصال",
+              "fr": "Connexion",
+              "en": "Connection"
+            },
+            "unit": null,
+            "options": [
+              {
+                "value": "usb",
+                "label": {
+                  "ar": "USB",
+                  "fr": "USB",
+                  "en": "USB"
+                }
+              },
+              {
+                "value": "jack",
+                "label": {
+                  "ar": "مقبس 3.5 مم",
+                  "fr": "Jack 3,5 mm",
+                  "en": "3.5 mm jack"
+                }
+              },
+              {
+                "value": "wireless_24",
+                "label": {
+                  "ar": "لاسلكي 2.4 غيغاهرتز",
+                  "fr": "Sans fil 2,4 GHz",
+                  "en": "2.4 GHz wireless"
+                }
+              },
+              {
+                "value": "bluetooth",
+                "label": {
+                  "ar": "Bluetooth",
+                  "fr": "Bluetooth",
+                  "en": "Bluetooth"
+                }
+              }
+            ],
+            "filterable": true,
+            "required": true,
+            "comparable": true,
+            "group": null
+          },
+          {
+            "key": "microphone",
+            "type": "boolean",
+            "label": {
+              "ar": "ميكروفون",
+              "fr": "Micro",
+              "en": "Microphone"
+            },
+            "unit": null,
+            "options": null,
+            "filterable": false,
+            "required": false,
+            "comparable": true,
+            "group": null
+          },
+          {
+            "key": "surround",
+            "type": "boolean",
+            "label": {
+              "ar": "صوت محيطي 7.1",
+              "fr": "Son surround 7.1",
+              "en": "7.1 surround"
+            },
+            "unit": null,
+            "options": null,
+            "filterable": true,
+            "required": false,
+            "comparable": true,
+            "group": null
+          }
+        ]
+      },
+      {
+        "slug": "webcams",
+        "name": {
+          "ar": "كاميرات الويب",
+          "fr": "Webcams",
+          "en": "Webcams"
+        },
+        "specs": [
+          {
+            "key": "video",
+            "type": "enum",
+            "label": {
+              "ar": "الفيديو",
+              "fr": "Vidéo",
+              "en": "Video"
+            },
+            "unit": null,
+            "options": [
+              {
+                "value": "720p30",
+                "label": {
+                  "ar": "720p 30 fps",
+                  "fr": "720p 30 fps",
+                  "en": "720p 30 fps"
+                }
+              },
+              {
+                "value": "1080p30",
+                "label": {
+                  "ar": "1080p 30 fps",
+                  "fr": "1080p 30 fps",
+                  "en": "1080p 30 fps"
+                }
+              },
+              {
+                "value": "1080p60",
+                "label": {
+                  "ar": "1080p 60 fps",
+                  "fr": "1080p 60 fps",
+                  "en": "1080p 60 fps"
+                }
+              },
+              {
+                "value": "4k30",
+                "label": {
+                  "ar": "4K 30 fps",
+                  "fr": "4K 30 fps",
+                  "en": "4K 30 fps"
+                }
+              }
+            ],
+            "filterable": true,
+            "required": true,
+            "comparable": true,
+            "group": null
+          },
+          {
+            "key": "microphone",
+            "type": "boolean",
+            "label": {
+              "ar": "ميكروفون مدمج",
+              "fr": "Micro intégré",
+              "en": "Built-in microphone"
+            },
+            "unit": null,
+            "options": null,
+            "filterable": false,
+            "required": false,
+            "comparable": true,
+            "group": null
+          }
+        ]
+      },
+      {
+        "slug": "microphones",
+        "name": {
+          "ar": "الميكروفونات",
+          "fr": "Microphones",
+          "en": "Microphones"
+        },
+        "specs": [
+          {
+            "key": "connection",
+            "type": "multi_enum",
+            "label": {
+              "ar": "الاتصال",
+              "fr": "Connexion",
+              "en": "Connection"
+            },
+            "unit": null,
+            "options": [
+              {
+                "value": "usb",
+                "label": {
+                  "ar": "USB",
+                  "fr": "USB",
+                  "en": "USB"
+                }
+              },
+              {
+                "value": "usb_c",
+                "label": {
+                  "ar": "USB-C",
+                  "fr": "USB-C",
+                  "en": "USB-C"
+                }
+              },
+              {
+                "value": "xlr",
+                "label": {
+                  "ar": "XLR",
+                  "fr": "XLR",
+                  "en": "XLR"
+                }
+              },
+              {
+                "value": "jack",
+                "label": {
+                  "ar": "مقبس 3.5 مم",
+                  "fr": "Jack 3,5 mm",
+                  "en": "3.5 mm jack"
+                }
+              }
+            ],
+            "filterable": true,
+            "required": true,
+            "comparable": true,
+            "group": null
+          },
+          {
+            "key": "pattern",
+            "type": "enum",
+            "label": {
+              "ar": "نمط الالتقاط",
+              "fr": "Directivité",
+              "en": "Polar pattern"
+            },
+            "unit": null,
+            "options": [
+              {
+                "value": "cardioid",
+                "label": {
+                  "ar": "قلبي",
+                  "fr": "Cardioïde",
+                  "en": "Cardioid"
+                }
+              },
+              {
+                "value": "multi",
+                "label": {
+                  "ar": "متعدد الأنماط",
+                  "fr": "Multi-directivité",
+                  "en": "Multi-pattern"
+                }
+              }
+            ],
+            "filterable": false,
+            "required": false,
+            "comparable": true,
+            "group": null
+          }
+        ]
+      },
+      {
+        "slug": "imprimantes",
+        "name": {
+          "ar": "الطابعات",
+          "fr": "Imprimantes",
+          "en": "Printers"
+        },
+        "specs": [
+          {
+            "key": "print_technology",
+            "type": "enum",
+            "label": {
+              "ar": "تقنية الطباعة",
+              "fr": "Technologie",
+              "en": "Technology"
+            },
+            "unit": null,
+            "options": [
+              {
+                "value": "laser",
+                "label": {
+                  "ar": "ليزر",
+                  "fr": "Laser",
+                  "en": "Laser"
+                }
+              },
+              {
+                "value": "inkjet",
+                "label": {
+                  "ar": "نفث الحبر",
+                  "fr": "Jet d'encre",
+                  "en": "Inkjet"
+                }
+              }
+            ],
+            "filterable": true,
+            "required": true,
+            "comparable": true,
+            "group": null
+          },
+          {
+            "key": "color",
+            "type": "boolean",
+            "label": {
+              "ar": "ألوان",
+              "fr": "Couleur",
+              "en": "Colour"
+            },
+            "unit": null,
+            "options": null,
+            "filterable": true,
+            "required": false,
+            "comparable": true,
+            "group": null
+          },
+          {
+            "key": "functions",
+            "type": "multi_enum",
+            "label": {
+              "ar": "الوظائف",
+              "fr": "Fonctions",
+              "en": "Functions"
+            },
+            "unit": null,
+            "options": [
+              {
+                "value": "print",
+                "label": {
+                  "ar": "طباعة",
+                  "fr": "Impression",
+                  "en": "Print"
+                }
+              },
+              {
+                "value": "scan",
+                "label": {
+                  "ar": "مسح ضوئي",
+                  "fr": "Numérisation",
+                  "en": "Scan"
+                }
+              },
+              {
+                "value": "copy",
+                "label": {
+                  "ar": "نسخ",
+                  "fr": "Copie",
+                  "en": "Copy"
+                }
+              }
+            ],
+            "filterable": true,
+            "required": false,
+            "comparable": true,
+            "group": null
+          },
+          {
+            "key": "wifi",
+            "type": "boolean",
+            "label": {
+              "ar": "واي فاي",
+              "fr": "Wi-Fi",
+              "en": "Wi-Fi"
+            },
+            "unit": null,
+            "options": null,
+            "filterable": true,
+            "required": false,
+            "comparable": true,
+            "group": null
+          },
+          {
+            "key": "duplex",
+            "type": "boolean",
+            "label": {
+              "ar": "طباعة على الوجهين",
+              "fr": "Recto verso automatique",
+              "en": "Automatic duplex"
+            },
+            "unit": null,
+            "options": null,
+            "filterable": true,
+            "required": false,
+            "comparable": true,
+            "group": null
+          },
+          {
+            "key": "speed_ppm",
+            "type": "number",
+            "label": {
+              "ar": "السرعة (أسود)",
+              "fr": "Vitesse (noir)",
+              "en": "Speed (black)"
+            },
+            "unit": "ppm",
+            "options": null,
+            "filterable": false,
+            "required": false,
+            "comparable": true,
+            "group": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "reseau",
+    "name": {
+      "ar": "الشبكات",
+      "fr": "Réseau",
+      "en": "Networking"
+    },
+    "children": [
+      {
+        "slug": "routeurs",
+        "name": {
+          "ar": "أجهزة التوجيه",
+          "fr": "Routeurs Wi-Fi",
+          "en": "Wi-Fi routers"
+        },
+        "specs": [
+          {
+            "key": "wifi_standard",
+            "type": "enum",
+            "label": {
+              "ar": "معيار الواي فاي",
+              "fr": "Norme Wi-Fi",
+              "en": "Wi-Fi standard"
+            },
+            "unit": null,
+            "options": [
+              {
+                "value": "wifi5",
+                "label": {
+                  "ar": "Wi-Fi 5 (ac)",
+                  "fr": "Wi-Fi 5 (ac)",
+                  "en": "Wi-Fi 5 (ac)"
+                }
+              },
+              {
+                "value": "wifi6",
+                "label": {
+                  "ar": "Wi-Fi 6 (ax)",
+                  "fr": "Wi-Fi 6 (ax)",
+                  "en": "Wi-Fi 6 (ax)"
+                }
+              },
+              {
+                "value": "wifi6e",
+                "label": {
+                  "ar": "Wi-Fi 6E",
+                  "fr": "Wi-Fi 6E",
+                  "en": "Wi-Fi 6E"
+                }
+              },
+              {
+                "value": "wifi7",
+                "label": {
+                  "ar": "Wi-Fi 7 (be)",
+                  "fr": "Wi-Fi 7 (be)",
+                  "en": "Wi-Fi 7 (be)"
+                }
+              }
+            ],
+            "filterable": true,
+            "required": true,
+            "comparable": true,
+            "group": null
+          },
+          {
+            "key": "speed_mbps",
+            "type": "integer",
+            "label": {
+              "ar": "السرعة الإجمالية",
+              "fr": "Débit Wi-Fi total",
+              "en": "Total Wi-Fi speed"
+            },
+            "unit": "Mb/s",
+            "options": null,
+            "filterable": true,
+            "required": false,
+            "comparable": true,
+            "group": null
+          },
+          {
+            "key": "lan_ports",
+            "type": "integer",
+            "label": {
+              "ar": "منافذ LAN",
+              "fr": "Ports LAN",
+              "en": "LAN ports"
+            },
+            "unit": null,
+            "options": null,
+            "filterable": false,
+            "required": false,
+            "comparable": true,
+            "group": null
+          },
+          {
+            "key": "mesh",
+            "type": "boolean",
+            "label": {
+              "ar": "شبكة Mesh",
+              "fr": "Mesh",
+              "en": "Mesh"
+            },
+            "unit": null,
+            "options": null,
+            "filterable": true,
+            "required": false,
+            "comparable": true,
+            "group": null
+          },
+          {
+            "key": "sim_4g",
+            "type": "boolean",
+            "label": {
+              "ar": "4G / 5G (شريحة)",
+              "fr": "4G / 5G (SIM)",
+              "en": "4G / 5G (SIM)"
+            },
+            "unit": null,
+            "options": null,
+            "filterable": true,
+            "required": false,
+            "comparable": true,
+            "group": null
+          }
+        ]
+      },
+      {
+        "slug": "adaptateurs-wifi",
+        "name": {
+          "ar": "محولات الواي فاي",
+          "fr": "Adaptateurs Wi-Fi",
+          "en": "Wi-Fi adapters"
+        },
+        "specs": [
+          {
+            "key": "wifi_standard",
+            "type": "enum",
+            "label": {
+              "ar": "معيار الواي فاي",
+              "fr": "Norme Wi-Fi",
+              "en": "Wi-Fi standard"
+            },
+            "unit": null,
+            "options": [
+              {
+                "value": "wifi5",
+                "label": {
+                  "ar": "Wi-Fi 5 (ac)",
+                  "fr": "Wi-Fi 5 (ac)",
+                  "en": "Wi-Fi 5 (ac)"
+                }
+              },
+              {
+                "value": "wifi6",
+                "label": {
+                  "ar": "Wi-Fi 6 (ax)",
+                  "fr": "Wi-Fi 6 (ax)",
+                  "en": "Wi-Fi 6 (ax)"
+                }
+              },
+              {
+                "value": "wifi6e",
+                "label": {
+                  "ar": "Wi-Fi 6E",
+                  "fr": "Wi-Fi 6E",
+                  "en": "Wi-Fi 6E"
+                }
+              },
+              {
+                "value": "wifi7",
+                "label": {
+                  "ar": "Wi-Fi 7 (be)",
+                  "fr": "Wi-Fi 7 (be)",
+                  "en": "Wi-Fi 7 (be)"
+                }
+              }
+            ],
+            "filterable": true,
+            "required": true,
+            "comparable": true,
+            "group": null
+          },
+          {
+            "key": "bus",
+            "type": "enum",
+            "label": {
+              "ar": "الاتصال",
+              "fr": "Connexion",
+              "en": "Connection"
+            },
+            "unit": null,
+            "options": [
+              {
+                "value": "usb",
+                "label": {
+                  "ar": "USB",
+                  "fr": "USB",
+                  "en": "USB"
+                }
+              },
+              {
+                "value": "pcie",
+                "label": {
+                  "ar": "PCIe",
+                  "fr": "PCIe",
+                  "en": "PCIe"
+                }
+              }
+            ],
+            "filterable": true,
+            "required": false,
+            "comparable": true,
+            "group": null
+          },
+          {
+            "key": "bluetooth",
+            "type": "boolean",
+            "label": {
+              "ar": "بلوتوث",
+              "fr": "Bluetooth",
+              "en": "Bluetooth"
+            },
+            "unit": null,
+            "options": null,
+            "filterable": false,
+            "required": false,
+            "comparable": true,
+            "group": null
+          }
+        ]
+      },
+      {
+        "slug": "switchs",
+        "name": {
+          "ar": "المبدلات",
+          "fr": "Switchs",
+          "en": "Switches"
+        },
+        "specs": [
+          {
+            "key": "ports",
+            "type": "integer",
+            "label": {
+              "ar": "المنافذ",
+              "fr": "Ports",
+              "en": "Ports"
+            },
+            "unit": null,
+            "options": null,
+            "filterable": true,
+            "required": true,
+            "comparable": true,
+            "group": null
+          },
+          {
+            "key": "port_speed",
+            "type": "enum",
+            "label": {
+              "ar": "سرعة المنافذ",
+              "fr": "Vitesse des ports",
+              "en": "Port speed"
+            },
+            "unit": null,
+            "options": [
+              {
+                "value": "100m",
+                "label": {
+                  "ar": "100 Mb/s",
+                  "fr": "100 Mb/s",
+                  "en": "100 Mb/s"
+                }
+              },
+              {
+                "value": "1g",
+                "label": {
+                  "ar": "1 Gb/s",
+                  "fr": "1 Gb/s",
+                  "en": "1 Gb/s"
+                }
+              },
+              {
+                "value": "2_5g",
+                "label": {
+                  "ar": "2,5 Gb/s",
+                  "fr": "2,5 Gb/s",
+                  "en": "2.5 Gb/s"
+                }
+              },
+              {
+                "value": "10g",
+                "label": {
+                  "ar": "10 Gb/s",
+                  "fr": "10 Gb/s",
+                  "en": "10 Gb/s"
+                }
+              }
+            ],
+            "filterable": true,
+            "required": false,
+            "comparable": true,
+            "group": null
+          },
+          {
+            "key": "managed",
+            "type": "boolean",
+            "label": {
+              "ar": "قابل للإدارة",
+              "fr": "Manageable",
+              "en": "Managed"
+            },
+            "unit": null,
+            "options": null,
+            "filterable": false,
+            "required": false,
+            "comparable": true,
+            "group": null
+          }
+        ]
+      },
+      {
+        "slug": "cables-reseau",
+        "name": {
+          "ar": "كوابل الشبكة",
+          "fr": "Câbles réseau",
+          "en": "Network cables"
+        },
+        "specs": [
+          {
+            "key": "cable_category",
+            "type": "enum",
+            "label": {
+              "ar": "الفئة",
+              "fr": "Catégorie",
+              "en": "Category"
+            },
+            "unit": null,
+            "options": [
+              {
+                "value": "cat5e",
+                "label": {
+                  "ar": "Cat 5e",
+                  "fr": "Cat 5e",
+                  "en": "Cat 5e"
+                }
+              },
+              {
+                "value": "cat6",
+                "label": {
+                  "ar": "Cat 6",
+                  "fr": "Cat 6",
+                  "en": "Cat 6"
+                }
+              },
+              {
+                "value": "cat6a",
+                "label": {
+                  "ar": "Cat 6a",
+                  "fr": "Cat 6a",
+                  "en": "Cat 6a"
+                }
+              },
+              {
+                "value": "cat8",
+                "label": {
+                  "ar": "Cat 8",
+                  "fr": "Cat 8",
+                  "en": "Cat 8"
+                }
+              }
+            ],
+            "filterable": true,
+            "required": false,
+            "comparable": true,
+            "group": null
+          },
+          {
+            "key": "length_m",
+            "type": "number",
+            "label": {
+              "ar": "الطول",
+              "fr": "Longueur",
+              "en": "Length"
+            },
+            "unit": "m",
+            "options": null,
+            "filterable": true,
+            "required": false,
+            "comparable": true,
+            "group": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "accessoires",
+    "name": {
+      "ar": "الإكسسوارات والألعاب",
+      "fr": "Accessoires & gaming",
+      "en": "Accessories & gaming gear"
+    },
+    "children": [
+      {
+        "slug": "tapis-de-souris",
+        "name": {
+          "ar": "لوحات الفأرة",
+          "fr": "Tapis de souris",
+          "en": "Mouse pads"
+        },
+        "specs": [
+          {
+            "key": "pad_size",
+            "type": "enum",
+            "label": {
+              "ar": "المقاس",
+              "fr": "Taille",
+              "en": "Size"
+            },
+            "unit": null,
+            "options": [
+              {
+                "value": "m",
+                "label": {
+                  "ar": "M",
+                  "fr": "M",
+                  "en": "M"
+                }
+              },
+              {
+                "value": "l",
+                "label": {
+                  "ar": "L",
+                  "fr": "L",
+                  "en": "L"
+                }
+              },
+              {
+                "value": "xl",
+                "label": {
+                  "ar": "XL",
+                  "fr": "XL",
+                  "en": "XL"
+                }
+              },
+              {
+                "value": "xxl",
+                "label": {
+                  "ar": "XXL / مكتب",
+                  "fr": "XXL / bureau",
+                  "en": "XXL / desk"
+                }
+              }
+            ],
+            "filterable": true,
+            "required": false,
+            "comparable": true,
+            "group": null
+          },
+          {
+            "key": "rgb",
+            "type": "boolean",
+            "label": {
+              "ar": "إضاءة RGB",
+              "fr": "RGB",
+              "en": "RGB"
+            },
+            "unit": null,
+            "options": null,
+            "filterable": true,
+            "required": false,
+            "comparable": true,
+            "group": null
+          }
+        ]
+      },
+      {
+        "slug": "chaises-gaming",
+        "name": {
+          "ar": "كراسي الألعاب",
+          "fr": "Chaises gaming",
+          "en": "Gaming chairs"
+        },
+        "specs": [
+          {
+            "key": "max_load_kg",
+            "type": "integer",
+            "label": {
+              "ar": "الحمولة القصوى",
+              "fr": "Charge max",
+              "en": "Max load"
+            },
+            "unit": "kg",
+            "options": null,
+            "filterable": true,
+            "required": false,
+            "comparable": true,
+            "group": null
+          },
+          {
+            "key": "upholstery",
+            "type": "enum",
+            "label": {
+              "ar": "الكسوة",
+              "fr": "Revêtement",
+              "en": "Upholstery"
+            },
+            "unit": null,
+            "options": [
+              {
+                "value": "pu",
+                "label": {
+                  "ar": "جلد صناعي",
+                  "fr": "Similicuir",
+                  "en": "PU leather"
+                }
+              },
+              {
+                "value": "fabric",
+                "label": {
+                  "ar": "قماش",
+                  "fr": "Tissu",
+                  "en": "Fabric"
+                }
+              },
+              {
+                "value": "mesh",
+                "label": {
+                  "ar": "شبكي",
+                  "fr": "Mesh",
+                  "en": "Mesh"
+                }
+              }
+            ],
+            "filterable": true,
+            "required": false,
+            "comparable": true,
+            "group": null
+          }
+        ]
+      },
+      {
+        "slug": "tables-gaming",
+        "name": {
+          "ar": "طاولات الألعاب",
+          "fr": "Tables gaming",
+          "en": "Gaming desks"
+        },
+        "specs": [
+          {
+            "key": "width_cm",
+            "type": "integer",
+            "label": {
+              "ar": "العرض",
+              "fr": "Largeur",
+              "en": "Width"
+            },
+            "unit": "cm",
+            "options": null,
+            "filterable": true,
+            "required": false,
+            "comparable": true,
+            "group": null
+          },
+          {
+            "key": "depth_cm",
+            "type": "integer",
+            "label": {
+              "ar": "العمق",
+              "fr": "Profondeur",
+              "en": "Depth"
+            },
+            "unit": "cm",
+            "options": null,
+            "filterable": false,
+            "required": false,
+            "comparable": true,
+            "group": null
+          }
+        ]
+      },
+      {
+        "slug": "manettes",
+        "name": {
+          "ar": "أذرع التحكم",
+          "fr": "Manettes",
+          "en": "Controllers"
+        },
+        "specs": [
+          {
+            "key": "platform",
+            "type": "multi_enum",
+            "label": {
+              "ar": "متوافق مع",
+              "fr": "Compatibilité",
+              "en": "Works with"
+            },
+            "unit": null,
+            "options": [
+              {
+                "value": "pc",
+                "label": {
+                  "ar": "PC",
+                  "fr": "PC",
+                  "en": "PC"
+                }
+              },
+              {
+                "value": "ps5",
+                "label": {
+                  "ar": "PS5",
+                  "fr": "PS5",
+                  "en": "PS5"
+                }
+              },
+              {
+                "value": "ps4",
+                "label": {
+                  "ar": "PS4",
+                  "fr": "PS4",
+                  "en": "PS4"
+                }
+              },
+              {
+                "value": "xbox",
+                "label": {
+                  "ar": "Xbox",
+                  "fr": "Xbox",
+                  "en": "Xbox"
+                }
+              },
+              {
+                "value": "switch",
+                "label": {
+                  "ar": "Switch",
+                  "fr": "Switch",
+                  "en": "Switch"
+                }
+              },
+              {
+                "value": "mobile",
+                "label": {
+                  "ar": "Mobile",
+                  "fr": "Mobile",
+                  "en": "Mobile"
+                }
+              }
+            ],
+            "filterable": true,
+            "required": true,
+            "comparable": true,
+            "group": null
+          },
+          {
+            "key": "wireless",
+            "type": "boolean",
+            "label": {
+              "ar": "لاسلكية",
+              "fr": "Sans fil",
+              "en": "Wireless"
+            },
+            "unit": null,
+            "options": null,
+            "filterable": true,
+            "required": false,
+            "comparable": true,
+            "group": null
+          }
+        ]
+      },
+      {
+        "slug": "sacs",
+        "name": {
+          "ar": "الحقائب",
+          "fr": "Sacs & sacoches",
+          "en": "Bags & sleeves"
+        },
+        "specs": [
+          {
+            "key": "max_laptop_inch",
+            "type": "number",
+            "label": {
+              "ar": "يناسب الحاسوب حتى",
+              "fr": "PC portable jusqu'à",
+              "en": "Fits laptops up to"
+            },
+            "unit": "\"",
+            "options": null,
+            "filterable": true,
+            "required": false,
+            "comparable": true,
+            "group": null
+          }
+        ]
+      },
+      {
+        "slug": "cables-adaptateurs",
+        "name": {
+          "ar": "الكوابل والمحولات",
+          "fr": "Câbles & adaptateurs",
+          "en": "Cables & adapters"
+        },
+        "specs": [
+          {
+            "key": "cable_type",
+            "type": "enum",
+            "label": {
+              "ar": "النوع",
+              "fr": "Type",
+              "en": "Type"
+            },
+            "unit": null,
+            "options": [
+              {
+                "value": "hdmi",
+                "label": {
+                  "ar": "HDMI",
+                  "fr": "HDMI",
+                  "en": "HDMI"
+                }
+              },
+              {
+                "value": "displayport",
+                "label": {
+                  "ar": "DisplayPort",
+                  "fr": "DisplayPort",
+                  "en": "DisplayPort"
+                }
+              },
+              {
+                "value": "usb_c",
+                "label": {
+                  "ar": "USB-C",
+                  "fr": "USB-C",
+                  "en": "USB-C"
+                }
+              },
+              {
+                "value": "hub",
+                "label": {
+                  "ar": "موزع USB",
+                  "fr": "Hub USB",
+                  "en": "USB hub"
+                }
+              },
+              {
+                "value": "other",
+                "label": {
+                  "ar": "أخرى",
+                  "fr": "Autre",
+                  "en": "Other"
+                }
+              }
+            ],
+            "filterable": true,
+            "required": false,
+            "comparable": true,
+            "group": null
+          },
+          {
+            "key": "length_m",
+            "type": "number",
+            "label": {
+              "ar": "الطول",
+              "fr": "Longueur",
+              "en": "Length"
+            },
+            "unit": "m",
+            "options": null,
+            "filterable": false,
+            "required": false,
+            "comparable": true,
+            "group": null
+          }
+        ]
+      }
+    ]
+  }
+]
